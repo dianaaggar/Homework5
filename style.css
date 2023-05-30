@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(238, 238, 245) ;
+}
+.navbar{
+    border:solid navy;
+    height:25vh;
+    margin:25px;
+    background-color: navy;
+}
+
+.navTitle{ 
+    width: 50%; 
+    height: 120px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 20px;
+    background-color: navy;
+    color: white;
+    text-decoration:underline ;
+}
+
+.introContainer{ 
+    height:22vh;
+    margin:25px;
+    display:flex;
+    justify-content: space-evenly;
+    padding:4px;
+}
+.skillsContainer{
+    height:22vh;
+    margin:25px;
+    display:flex;
+    justify-content: space-evenly;
+    padding:4px;
+}
+.xpContainer{
+    height:22vh;
+    margin:25px;
+    display:flex;
+}
+.profileContainer, .imgContainer, .contactContainer{
+    border:solid navy;
+    width:33%;
+    text-align: center;
+}
+.image{
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px; 
+    border: solid rgb(238, 238, 245); 
+}
+
+#imgBackGround{
+    background-color: navy;
+}
+
+.miniContainer{
+    border: solid black; 
+    justify-content: space-evenly;
+    margin: 10px;
+    border-width: .2px;
+}
+
+
+
+.eduContainer, .assetContainer, .industryContainer{
+    border:solid navy;
+    width:33%;
+}
+
+.eduTitle {
+    border: solid black;
+    width: 150px; 
+    text-align: center; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px; 
+    border-width: .2px;
+}
+
+.eduSchool{
+    text-align: center;
+    margin: 12px; 
+   
+}
+
+.left{
+    border:solid navy;
+    width:67%;
+}
+.right{
+    border:solid navy;
+    width:33%;
+    text-align: center;
+}
